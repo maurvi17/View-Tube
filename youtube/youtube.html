@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>
+      My ViewTube
+    </Title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+
+  <body>   
+    <div class="header">
+
+      <div class="left-section">
+        <img  class="three-lines"src="icons/hamburger-menu.svg">
+        <img  class="youtube-logo"src="icons/ViewTube.jpeg">
+      </div>
+
+      <div class="middle-section">
+        <!-- <input  class="searchbar" placeholder="Search"> -->
+        <input type="text" id="searchInput" class="searchbar" placeholder="Search">
+        <button onclick="searchVideos()" class="search-button">
+          <img src="icons/search.svg">
+        </button>
+        <button class="voice-search">
+          <img src="icons/voice-search-icon.svg">
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload" src="icons/upload.svg">
+          <div class="tooltip">
+            Create
+          </div>
+      </div> 
+        
+        <div class="notification-container">
+          <img  class="notification" src="icons/notifications.svg">
+          <div class="notification-count">9+</div>
+          <div class="notification-text">
+            Notifications
+          </div>
+        </div>
+        <!-- <img  class="harry" src="channel profiles/harry.jpg"> -->
+      </div>
+    </div>
+    <div class="header-buttons">
+      <button class="buttons"><a class="Second-header" href="https://www.youtube.com/">All</a></button>
+      <button class="buttons"><a class="Second-header" href="https://www.youtube.com/">Live</a></button>
+      <button class="buttons">Mixes</button>
+      <button class="buttons">Pritam Chakraborty</button>
+      <button class="buttons">Lo-fi</button>
+      <button class="buttons">T-Series</button>
+      <button class="buttons">Web-Dev</button>
+      <button class="buttons">Modifications</button>
+      <button class="buttons">Computer-Programing</button>
+      <button class="buttons">Spritual</button>
+      <button class="buttons">Indian-Pop-Music</button>
+      <button class="buttons">Mantras</button>
+      <button class="buttons">News</button>   
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link"><img  class="sidebar-icons" src="icons/Home.svg">
+        <div>
+          <a class="Second-header" href="https://www.youtube.com/">
+            Home
+          </a>
+        </div>
+      </div>
+      <div class="sidebar-link"><img  class="sidebar-icons" src="icons/youtube-shorts.png">
+        <div>
+          <a class="Second-header" href="https://www.youtube.com/shorts/E1KIwOlUlFw">
+            Shorts
+          </a>
+        </div>
+      </div>
+      <div class="sidebar-link"><img  class="sidebar-icons" src="icons/subscriptions.svg">
+        <div> 
+          <a class="Second-header" href="https://www.youtube.com/feed/subscriptions">
+            Subscriptions
+          </a>
+        </div>
+      </div>
+      <div class="sidebar-link"><img  class="sidebar-icons" src="icons/library.svg">
+        <div>
+          <a  class="Second-header" href="https://www.youtube.com/playlist?list=LL">
+            Library
+          </a>
+        </div>
+      </div>
+      <div class="sidebar-link"><img  class="sidebar-icons" src="icons/youtube-download.png">
+        <div>
+          <a class="Second-header" href="https://www.youtube.com/feed/downloads">
+            Downloads
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="video-grid">
+      <!-- first video -->
+
+      <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=DMLrGfMxOQA">
+          <img  class="video-thumbnails" src="thumbnails\img1.jpg">
+        </a>
+      </div>
+
+      <div class="video-time">5:06</div>
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@tseries">
+            <img class="profile-pic" src="channel profiles/t-series.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=DMLrGfMxOQA">
+              I AM IN LOVE LYRICAL VIDEO | ONCE UPON A TIME IN MUMBAI | LYRICAL VIDEO 
+            </a>   
+          </p>
+          <p class="video-author">
+            T-Series &#10003
+          </p>
+          <p class="video-stats">
+            21M views. 1 hour ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+  
+    <!-- second video -->
+  
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+          <a href="https://www.youtube.com/watch?v=pXR82uQGqyY">
+            <img  class="video-thumbnails" src="thumbnails\img1.webp">
+          </a>
+      </div>
+      <div class="video-time">18:30</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@ASHWINSINGHTAKIAR">
+            <img class="profile-pic" src="channel profiles/Ast-logo.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=pXR82uQGqyY">
+              DRIFT CAR KO POLICE CAR BANA DIYA | FULLY ILLEGAL || NEW WRAP 
+            </a>
+           
+          </p>
+          <p class="video-author">
+            ASHWIN SINGH TAKIAR &#10003
+          </p>
+          <p class="video-stats">
+            109K views. 1 day ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+    
+    <!-- third video -->
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+          <img  class="video-thumbnails" src="thumbnails\web-dev-course.jpg">
+        </a>
+        
+      </div>
+      <div class="video-time">6:31:24</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@SuperSimpleDev">
+            <img class="profile-pic" src="channel profiles/super-simple-dev.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+              HTML & CSS FULL COURSE - Beginner to Pro 
+            </a>
+          </p>
+
+          <p class="video-author">
+            SuperSimpleDev &#10003
+          </p>
+          <p class="video-stats">
+            8.5M views. 2 years ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+    
+    <!-- fourth video -->
+    
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=bw28wwgO0GA">
+          <img  class="video-thumbnails" src="thumbnails\old is gold.webp">
+        </a>
+        
+      </div>
+      <div class="video-time">46:40</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@-MUSIQWRYTER">
+            <img class="profile-pic" src="channel profiles/music.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=bw28wwgO0GA">
+              💖80's Songs |Ever Green Songs💖 | Old Is Gold || Juke Box |
+            </a> 
+          </p>
+          <p class="video-author">
+            Musiqwryter &#10003
+          </p>
+          <p class="video-stats">
+            31K views. 5 months ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+
+    <!-- fifth video -->
+    
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=C85EPaJSqlA">
+          <img  class="video-thumbnails" src="thumbnails\karan sehgal.webp">
+        </a> 
+      </div>
+
+      <div class="video-time">11:36</div>
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@KARANSEHGALVLOGS">
+            <img class="profile-pic" src="channel profiles/karan-sehgal.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=C85EPaJSqlA">
+              SWAGAT hai NEW MERCEDES GLS 450 😍|| DAD ka Big Surpirse 😳
+            </a> 
+          </p>
+          <p class="video-author">
+            KARAN SEHGAL &#10003
+          </p>
+          <p class="video-stats">
+            171k views. 1 day ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+
+    <!-- sixth video -->
+
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=YF86nZk9k2w">
+          <img  class="video-thumbnails" src="thumbnails\gaurav kapoor.webp">
+        </a>
+      </div>
+
+      <div class="video-time">11:40</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@GauravKapoor">
+            <img class="profile-pic" src="channel profiles/gaurav kapoor.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=YF86nZk9k2w">
+              SADAK SABHYATA | GAURAV KAPOOR | STAND UP COMEDY
+            </a>
+          </p>
+
+          <p class="video-author">
+            Gaurav Kapoor &#10003
+          </p>
+
+          <p class="video-stats">
+            1.7M views. 3 weeks ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+     
+    <!-- seventh video -->
+
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=LxwW_rAk0ic">
+          <img  class="video-thumbnails" src="thumbnails/ypm.webp">
+        </a>
+      </div>
+      <div class="video-time">6:41</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@YPMVlogs">
+            <img class="profile-pic" src="channel profiles/ypm-vlog.jpg">
+          </a>
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=LxwW_rAk0ic">
+              GOOD NEWS IS HERE FINALLY !! 😍🧿
+            </a>
+          </p>
+         
+          <p class="video-author">
+            YPM vlogs &#10003
+          </p>
+          <p class="video-stats">
+            6.7K views. 13 hours ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+
+    <!-- 8th video -->
+    
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=m1vOKdWlIGc">
+          <img  class="video-thumbnails" src="thumbnails/sd vt sir.webp">
+        </a>
+      </div>
+
+      <div class="video-time">2:17</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@ScholarsDenMoradabad">
+            <img class="profile-pic" src="channel profiles/scholars-den.jpg">
+          </a>
+        
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a  class="video-link" href="https://www.youtube.com/watch?v=m1vOKdWlIGc">
+              Speed or Accuracy – what should be your priority in exam? | सवाल बच्चों के, ज़वाब VT Sir के | Q&A
+            </a>
+          </p>
+          <p class="video-author">
+            Scholars Den &#10003
+          </p>
+          <p class="video-stats">
+            1K views. 21 days ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+
+      <!-- 9th video -->
+          
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=Xvukp6FpUVU">
+          <img  class="video-thumbnails" src="thumbnails/scam.webp">
+        </a>
+      </div>
+
+      <div class="video-time">49:59</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@SonyLIV">
+            <img class="profile-pic" src="channel profiles/sony-liv.jpg">
+          </a>
+        
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a  class="video-link" href="https://www.youtube.com/watch?v=Xvukp6FpUVU">
+             The Harshad Mehta Story | Sony LIV Originals | Pratik Gandhi, Shreya Dhanwanthary  
+            </a>
+          </p>
+          <p class="video-author">
+            Sony LIV &#10003
+          </p>
+          <p class="video-stats">
+            13M views. 1 year ago 
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+
+      <!-- 10th video -->
+ 
+      <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=GyhawmnxrqY">
+          <img  class="video-thumbnails" src="thumbnails/js films.jpg">
+        </a>
+      </div>
+
+      <div class="video-time">13:33</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@jsfilmsindia">
+            <img class="profile-pic" src="channel profiles/js film.jpg">
+          </a>
+        
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a  class="video-link" href="https://www.youtube.com/watch?v=GyhawmnxrqY">
+              riding World's fastest SUPERBIKE on Snow!! 
+            </a>
+          </p>
+          <p class="video-author">
+            JS Films &#10003
+          </p>
+          <p class="video-stats">
+            24k views. 6 hours ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+
+     <!-- 11th video -->
+ 
+     <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=voGIU3ihvy8">
+          <img  class="video-thumbnails" src="thumbnails/tmkoc.webp">
+        </a>
+      </div>
+
+      <div class="video-time">19:28</div>
+
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">
+          <a href="https://www.youtube.com/@SonyPAL">
+            <img class="profile-pic" src="channel profiles/sony pal.jpg">
+          </a>
+        
+        </div>
+        <div class="video-info">
+          <p class="title">
+            <a  class="video-link" href="https://www.youtube.com/watch?v=voGIU3ihvy8">
+              Taarak Mehta Ka Ooltah Chashmah | तारक मेहता का उल्टा चश्मा | Episode 2606 | 31st  May, 2021 
+            </a>
+          </p>
+          <p class="video-author">
+            Sony PAL &#10003
+          </p>
+          <p class="video-stats">
+            10M views. 2 years ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+      </div>
+      <!-- vertical layout ends here -->
+    </div>
+    
+    <!-- 12th video -->
+    
+    <div class="video-block">
+      <!-- vertical layout starts here -->
+      <div class="thumbnail">
+        <a href="https://www.youtube.com/watch?v=9wP3G7oDQqU">
+          <img  class="video-thumbnails" src="thumbnails/nmf news.webp">
+        </a>
+      </div>
+      <div class="video-info-grid">
+        <!-- horizontal layout starts here -->
+        <div class="profile">  
+          <a href="https://www.youtube.com/@NMFNews">
+            <img class="profile-pic" src="channel profiles/nmf-news.jpg">
+          </a>
+        </div>
+        <div class="video-time">6:17</div>
+
+        <div class="video-info">
+          <p class="title">
+            <a  class="video-link" href="https://www.youtube.com/watch?v=9wP3G7oDQqU">
+              मदरसा तोड़ने से चिढ़ी भीड़ के खिलाफ Dhami का एक्शन, SC के धाकड़ वकील ने बताया- कौन है ज़िम्मेदार ?
+            </a>
+          </p>
+          <p class="video-author">
+            NMF News &#10003
+          </p>
+          <p class="video-stats">
+            573K views. 13 hours ago
+          </p>
+        </div>
+        <!-- horizontal layout ends here -->
+        </div>
+      <!-- vertical layout ends here -->
+      </div>
+
+      <!-- searching -->
+      <!-- <div id="searchResults"></div> -->
+
+    </div>   
+    <script src="videonames.js"></script>           <!--LINKING JS FILE FOR SEARCHING FUNCTIONALITY-->
+  </body>
+</html>

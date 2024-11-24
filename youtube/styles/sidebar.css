@@ -1,0 +1,83 @@
+.sidebar{
+  position: fixed;
+  left:0;
+  bottom:0;
+  top:55px;
+  background-color:white;
+  width:65px;
+  z-index: 101;
+  padding-top: 5px;
+}
+.header-buttons{
+  position:fixed;
+  left: 65px;
+  top: 55px;
+  background-color: white;
+  color: white;
+  height: 50px;
+  right:0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 99;
+}
+.buttons{
+  height: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-weight: 700;
+  border-radius: 4.5px;
+  background-color: rgb(235, 235, 235);
+  color:rgb(35, 35, 35);
+  /* border-style: solid; */
+  border:none;
+  cursor: pointer;
+}
+.buttons:hover{
+  opacity: 0.85;
+}
+.buttons:active{
+  padding-top: 4px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Second-header{
+  color:rgb(35, 35, 35);
+  text-decoration: none;
+}
+
+
+.sidebar-link{
+  border-radius: 4px;
+  height: 79px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar-link:hover{
+  background-color: rgb(236, 236, 236);
+}
+
+.sidebar-icons{
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div{
+  font-family: Roboto,Arial;
+  font-size: 10.5px;
+  font-weight: 500;
+}
+.video-link{
+  text-decoration: none;
+  color:black;
+}
